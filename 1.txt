@@ -1,0 +1,28 @@
+https://blog.csdn.net/weixin_40876882/article/details/107973101
+
+https://www.unixmen.com/install-configure-samba-server-centos-7/
+
+
+address='192.168.1.100'; sed -i -e "/private_ip/s/192.168.1.100/${address}/" -e "/dns_name/s/192.168.1.100/${address}/" resource/index.js
+
+vi resource/index.js
+
+cp /data/pingcode-install-tar/ansible/roles/common/files/conf/kubernetes/helm-charts/application/on-premises/configmap-app-on-premises.yaml configmap-app-on-premises.yaml_oribak
+
+
+
+rpm -ivh /data/pingcode-install/software/rsync/centos-7/rsync-3.1.2-6.el7_6.1.x86_64.rpm
+curl 127.0.0.1
+
+http://192.168.1.100/on-premises/initialize
+
+
+root：
+kubectl -n on-premises get pods
+
+
+
+ON_PREMISES_LICENSE: "Tz4nN3Am91vz8ZLWj9l7y+yBXFQZ4yi50urrlwcbpB8xDSsltxFUL/5XsUzyBf9t4Ticzv7w9F4Piz0nIKkAZ4wQouPXomYblzbtyUJ03nlJScQSkvfcXZJmYlnooQHZTWa7EEjFGmekpbVcvclVF92z2HkgxkGQ55azllfAVFRC9rKuyReuqWXZ2IjLtahpVCFBgzClADGQOf8kO4lZK3XL0cPmEYW3FIqXKLIcAodS6vb6frZHFoALZmyzh45ChU86g+tA0kdI9lJfuMf7GdALzvvSvR42SPxdHcL+c8n/x8ahTx1I/bR40vsM24MVA34E0JWg6ix+ChSoitcATA=="
+ON_PREMISE_PROFILE: '{"hardware_thumbprints":["U2VyaWFsIE51bWJlcjpWTXdhcmUtNTYgNGQgZjkgMzIgYWQgODEgOTkgZDUtMjYgNDAgNjEgMDggMDggZjAgZTEgZjJ8VVVJRDozMmY5NGQ1Ni04MWFkLWQ1OTktMjY0MC02MTA4MDhmMGUxZjI="],"user_limit":30,"date_from":1640677819133,"expired_at":1642176000000,"pricing_applications":[70,100,110,120,140,150]}'
+ON_PREMISES_PUBLIC_KEY: "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzaUpwQnlJVW8rRkF5TkFtMlhicgpTTDVGWmdHaU5Mc3dyMmVYclA1R212alAvZjRzNEd3N25kNjRTN2RORXh0a0Mwc01Wangrdjl4OE9hV1NKejhhClpKT0FIUVFQVEczZEx3NnNhNXNKTmlySDFjMStjZEo2cXY5YnYycHJtbk5vZ0NBWEZQTVJkdjlramp1eWNTTEMKckRxeFR1VHRwbllFRmQ5RWtpUFRaUEJwaktMUDRPTXVyUWc5VDhKQ09hbWVsOVJ2S2F1dldOOVhsbTNCbzFTYwp2U0U0RGgwZUJjSTJhODZCM2NwNHpZWk1PSlpwUWRMcU1HVzYwYnNUb1h6UVhBSFA1b2E3YzlWUEhGZmRZUW1MCkJJM1RTb3YwOVFvbDMrSGFubC9DQTFSMnQ2OXNyL1ZWNHIwbVhieW4yQytUK3ZsODI0S0lxR3VvV2x1RGRvN2QKS3dJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+
